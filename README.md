@@ -1,7 +1,18 @@
 # Introduction
 This package collects sensor data from the Unitree  Go2 robot and presents it in the form of a rosbag.
-# Installation
+# Installation and Build the Package
 Install the unitree_ros2 package by following the instructions at https://github.com/unitreerobotics/unitree_ros2.
+
+Create a workspace directory and move the `src` folder into it. Then, build the package in the workspace direction: 
+```
+colcon build
+```
+
+Before running the nodes, run the following command  in the workspace directory:
+```
+source ./unitree_ros2_setup.sh
+source ./install/setup.sh
+```
 
 # Rosbag Data Format
 
@@ -13,8 +24,8 @@ float32[12] motor_dq // joint velocity
 float32[12] motor_ddq // joint acceleration
 float32[12] motor_tau_est // estimated torque
 ```
-# Create_dataset package
-This pakage contains three nodes.
+# Create_dataset Package
+The `create_dataset` pakage contains three nodes.
 ### 1. control_speed
 This node could control the speed in the x-direction and gait of the robot. Use the following command to run it:
 ```
