@@ -1,0 +1,16 @@
+[0.016s] Invoking command in '/home/zsj/code/unitree_ws/build/create_dataset': CMAKE_PREFIX_PATH=/home/zsj/code/unitree_ws/install/robot_state:/home/zsj/code/unitree_ws/install/create_dataset:/home/zsj/code/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/zsj/code/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/zsj/code/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/zsj/code/unitree_ros2/cyclonedds_ws/install/cyclonedds:/opt/ros/humble /usr/bin/cmake --build /home/zsj/code/unitree_ws/build/create_dataset -- -j12 -l12
+[0.082s] [35m[1mConsolidate compiler generated dependencies of target control_speed[0m
+[0.102s] [ 57%] Built target read_data
+[0.102s] [ 57%] Built target record_data
+[0.114s] [ 71%] [32mBuilding CXX object CMakeFiles/control_speed.dir/src/control_speed.cpp.o[0m
+[3.118s] [01m[K/home/zsj/code/unitree_ws/src/create_dataset/src/control_speed.cpp:[m[K In constructor ‘[01m[Ksoprt_request::soprt_request(double, int)[m[K’:
+[3.118s] [01m[K/home/zsj/code/unitree_ws/src/create_dataset/src/control_speed.cpp:15:90:[m[K [01;31m[Kerror: [m[K‘[01m[Kinput_gait[m[K’ was not declared in this scope
+[3.118s]    15 |     soprt_request(double vx_input,int gait_input) : Node("req_sender"),vx(vx_input),gait([01;31m[Kinput_gait[m[K)
+[3.118s]       |                                                                                          [01;31m[K^~~~~~~~~~[m[K
+[3.136s] [01m[K/home/zsj/code/unitree_ws/src/create_dataset/src/control_speed.cpp:15:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgait_input[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.136s]    15 |     soprt_request(double vx_input,[01;35m[Kint gait_input[m[K) : Node("req_sender"),vx(vx_input),gait(input_gait)
+[3.136s]       |                                   [01;35m[K~~~~^~~~~~~~~~[m[K
+[6.517s] gmake[2]: *** [CMakeFiles/control_speed.dir/build.make:76: CMakeFiles/control_speed.dir/src/control_speed.cpp.o] Error 1
+[6.517s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/control_speed.dir/all] Error 2
+[6.518s] gmake: *** [Makefile:146: all] Error 2
+[6.521s] Invoked command in '/home/zsj/code/unitree_ws/build/create_dataset' returned '2': CMAKE_PREFIX_PATH=/home/zsj/code/unitree_ws/install/robot_state:/home/zsj/code/unitree_ws/install/create_dataset:/home/zsj/code/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/zsj/code/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/zsj/code/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/zsj/code/unitree_ros2/cyclonedds_ws/install/cyclonedds:/opt/ros/humble /usr/bin/cmake --build /home/zsj/code/unitree_ws/build/create_dataset -- -j12 -l12

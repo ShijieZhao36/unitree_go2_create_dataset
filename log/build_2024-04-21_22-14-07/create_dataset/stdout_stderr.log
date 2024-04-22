@@ -1,0 +1,23 @@
+[35m[1mConsolidate compiler generated dependencies of target read_data[0m
+[ 71%] Built target record_data
+[ 71%] Built target control_speed
+[ 85%] [32mBuilding CXX object CMakeFiles/read_data.dir/src/read_data.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/zsj/code/unitree_ws/src/create_dataset/src/read_data.cpp:7[m[K:
+[01m[K/home/zsj/code/unitree_ws/src/create_dataset/src/read_data.cpp:[m[K In member function ‘[01m[Kvoid PlaybackNode::timer_callback()[m[K’:
+[01m[K/home/zsj/code/unitree_ws/src/create_dataset/src/read_data.cpp:33:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kstr[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd[m[K’?
+   33 |       RCLCPP_INFO(this->get_logger(), [01;31m[Kstr[m[K(reader_.has_next()));
+      |                                       [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/read_data.dir/build.make:76: CMakeFiles/read_data.dir/src/read_data.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/read_data.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

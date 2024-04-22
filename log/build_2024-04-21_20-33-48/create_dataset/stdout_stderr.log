@@ -1,0 +1,30 @@
+[35m[1mConsolidate compiler generated dependencies of target read_data[0m
+[35m[1mConsolidate compiler generated dependencies of target record_data[0m
+[35m[1mConsolidate compiler generated dependencies of target control_speed[0m
+[ 42%] Built target record_data
+[ 42%] [32mBuilding CXX object CMakeFiles/read_data.dir/src/read_data.cpp.o[0m
+[ 85%] Built target control_speed
+[100%] [32m[1mLinking CXX executable read_data[0m
+[100%] Built target read_data
+-- Install configuration: ""
+-- Installing: /home/zsj/code/unitree_ws/install/create_dataset/lib/create_dataset/record_data
+-- Set runtime path of "/home/zsj/code/unitree_ws/install/create_dataset/lib/create_dataset/record_data" to ""
+-- Installing: /home/zsj/code/unitree_ws/install/create_dataset/lib/create_dataset/control_speed
+-- Set runtime path of "/home/zsj/code/unitree_ws/install/create_dataset/lib/create_dataset/control_speed" to ""
+-- Installing: /home/zsj/code/unitree_ws/install/create_dataset/lib/create_dataset/read_data
+-- Set runtime path of "/home/zsj/code/unitree_ws/install/create_dataset/lib/create_dataset/read_data" to ""
+-- Installing: /home/zsj/code/unitree_ws/install/create_dataset/share/ament_index/resource_index/package_run_dependencies/create_dataset
+-- Installing: /home/zsj/code/unitree_ws/install/create_dataset/share/ament_index/resource_index/parent_prefix_path/create_dataset
+-- Installing: /home/zsj/code/unitree_ws/install/create_dataset/share/create_dataset/environment/ament_prefix_path.sh
+-- Installing: /home/zsj/code/unitree_ws/install/create_dataset/share/create_dataset/environment/ament_prefix_path.dsv
+-- Installing: /home/zsj/code/unitree_ws/install/create_dataset/share/create_dataset/environment/path.sh
+-- Installing: /home/zsj/code/unitree_ws/install/create_dataset/share/create_dataset/environment/path.dsv
+-- Installing: /home/zsj/code/unitree_ws/install/create_dataset/share/create_dataset/local_setup.bash
+-- Installing: /home/zsj/code/unitree_ws/install/create_dataset/share/create_dataset/local_setup.sh
+-- Installing: /home/zsj/code/unitree_ws/install/create_dataset/share/create_dataset/local_setup.zsh
+-- Installing: /home/zsj/code/unitree_ws/install/create_dataset/share/create_dataset/local_setup.dsv
+-- Installing: /home/zsj/code/unitree_ws/install/create_dataset/share/create_dataset/package.dsv
+-- Installing: /home/zsj/code/unitree_ws/install/create_dataset/share/ament_index/resource_index/packages/create_dataset
+-- Installing: /home/zsj/code/unitree_ws/install/create_dataset/share/create_dataset/cmake/create_datasetConfig.cmake
+-- Installing: /home/zsj/code/unitree_ws/install/create_dataset/share/create_dataset/cmake/create_datasetConfig-version.cmake
+-- Installing: /home/zsj/code/unitree_ws/install/create_dataset/share/create_dataset/package.xml

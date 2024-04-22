@@ -1,0 +1,4 @@
+source;share/create_dataset/local_setup.bash
+source;share/create_dataset/local_setup.dsv
+source;share/create_dataset/local_setup.sh
+source;share/create_dataset/local_setup.zsh

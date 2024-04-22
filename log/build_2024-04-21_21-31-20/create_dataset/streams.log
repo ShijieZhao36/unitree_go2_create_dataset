@@ -1,0 +1,30 @@
+[0.017s] Invoking command in '/home/zsj/code/unitree_ws/build/create_dataset': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zsj/code/unitree_ws/install/read_bag:/opt/ros/humble /usr/bin/cmake --build /home/zsj/code/unitree_ws/build/create_dataset -- -j12 -l12
+[0.087s] [35m[1mConsolidate compiler generated dependencies of target read_data[0m
+[0.102s] [ 14%] [32mBuilding CXX object CMakeFiles/record_data.dir/src/record_data.cpp.o[0m
+[0.105s] [ 57%] Built target control_speed
+[0.108s] [ 85%] Built target read_data
+[8.212s] [100%] [32m[1mLinking CXX executable record_data[0m
+[8.570s] [100%] Built target record_data
+[8.580s] Invoked command in '/home/zsj/code/unitree_ws/build/create_dataset' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zsj/code/unitree_ws/install/read_bag:/opt/ros/humble /usr/bin/cmake --build /home/zsj/code/unitree_ws/build/create_dataset -- -j12 -l12
+[8.617s] Invoking command in '/home/zsj/code/unitree_ws/build/create_dataset': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zsj/code/unitree_ws/install/read_bag:/opt/ros/humble /usr/bin/cmake --install /home/zsj/code/unitree_ws/build/create_dataset
+[8.624s] -- Install configuration: ""
+[8.624s] -- Installing: /home/zsj/code/unitree_ws/install/create_dataset/lib/create_dataset/record_data
+[8.628s] -- Set runtime path of "/home/zsj/code/unitree_ws/install/create_dataset/lib/create_dataset/record_data" to ""
+[8.628s] -- Up-to-date: /home/zsj/code/unitree_ws/install/create_dataset/lib/create_dataset/control_speed
+[8.628s] -- Up-to-date: /home/zsj/code/unitree_ws/install/create_dataset/lib/create_dataset/read_data
+[8.629s] -- Up-to-date: /home/zsj/code/unitree_ws/install/create_dataset/share/ament_index/resource_index/package_run_dependencies/create_dataset
+[8.629s] -- Up-to-date: /home/zsj/code/unitree_ws/install/create_dataset/share/ament_index/resource_index/parent_prefix_path/create_dataset
+[8.629s] -- Up-to-date: /home/zsj/code/unitree_ws/install/create_dataset/share/create_dataset/environment/ament_prefix_path.sh
+[8.629s] -- Up-to-date: /home/zsj/code/unitree_ws/install/create_dataset/share/create_dataset/environment/ament_prefix_path.dsv
+[8.629s] -- Up-to-date: /home/zsj/code/unitree_ws/install/create_dataset/share/create_dataset/environment/path.sh
+[8.629s] -- Up-to-date: /home/zsj/code/unitree_ws/install/create_dataset/share/create_dataset/environment/path.dsv
+[8.629s] -- Up-to-date: /home/zsj/code/unitree_ws/install/create_dataset/share/create_dataset/local_setup.bash
+[8.629s] -- Up-to-date: /home/zsj/code/unitree_ws/install/create_dataset/share/create_dataset/local_setup.sh
+[8.630s] -- Up-to-date: /home/zsj/code/unitree_ws/install/create_dataset/share/create_dataset/local_setup.zsh
+[8.630s] -- Up-to-date: /home/zsj/code/unitree_ws/install/create_dataset/share/create_dataset/local_setup.dsv
+[8.630s] -- Installing: /home/zsj/code/unitree_ws/install/create_dataset/share/create_dataset/package.dsv
+[8.630s] -- Up-to-date: /home/zsj/code/unitree_ws/install/create_dataset/share/ament_index/resource_index/packages/create_dataset
+[8.630s] -- Up-to-date: /home/zsj/code/unitree_ws/install/create_dataset/share/create_dataset/cmake/create_datasetConfig.cmake
+[8.630s] -- Up-to-date: /home/zsj/code/unitree_ws/install/create_dataset/share/create_dataset/cmake/create_datasetConfig-version.cmake
+[8.630s] -- Up-to-date: /home/zsj/code/unitree_ws/install/create_dataset/share/create_dataset/package.xml
+[8.631s] Invoked command in '/home/zsj/code/unitree_ws/build/create_dataset' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zsj/code/unitree_ws/install/read_bag:/opt/ros/humble /usr/bin/cmake --install /home/zsj/code/unitree_ws/build/create_dataset

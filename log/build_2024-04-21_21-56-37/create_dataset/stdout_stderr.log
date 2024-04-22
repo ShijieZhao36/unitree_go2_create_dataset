@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target read_data[0m
+[ 28%] Built target record_data
+[ 71%] Built target control_speed
+[ 85%] [32mBuilding CXX object CMakeFiles/read_data.dir/src/read_data.cpp.o[0m
+[01m[K/home/zsj/code/unitree_ws/src/create_dataset/src/read_data.cpp:57:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   57 |     }
+      |      [01;31m[K^[m[K
+      |      [32m[K;[m[K
+gmake[2]: *** [CMakeFiles/read_data.dir/build.make:76: CMakeFiles/read_data.dir/src/read_data.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/read_data.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,62 @@
+[0.021s] Invoking command in '/home/zsj/code/unitree_ws/build/create_dataset': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zsj/code/unitree_ws/install/read_bag:/opt/ros/humble /usr/bin/cmake --build /home/zsj/code/unitree_ws/build/create_dataset -- -j12 -l12
+[0.106s] [35m[1mConsolidate compiler generated dependencies of target read_data[0m
+[0.118s] [ 71%] Built target record_data
+[0.118s] [ 71%] Built target control_speed
+[0.124s] [ 85%] [32mBuilding CXX object CMakeFiles/read_data.dir/src/read_data.cpp.o[0m
+[2.553s] [01m[K/home/zsj/code/unitree_ws/src/create_dataset/src/read_data.cpp:73:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[2.553s]    73 | }
+[2.554s]       |  [01;31m[K^[m[K
+[2.554s] [01m[K/home/zsj/code/unitree_ws/src/create_dataset/src/read_data.cpp:18:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.554s]    18 | [01;36m[K{[m[K
+[2.554s]       | [01;36m[K^[m[K
+[2.560s] [01m[K/home/zsj/code/unitree_ws/src/create_dataset/src/read_data.cpp:[m[K In constructor ‘[01m[KPlaybackNode::PlaybackNode(const string&)[m[K’:
+[2.560s] [01m[K/home/zsj/code/unitree_ws/src/create_dataset/src/read_data.cpp:23:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[2.560s]    23 |       [01;31m[Kpublisher_[m[K = this->create_publisher<robot_state::msg::RobotState>("/dataset", 10);
+[2.560s]       |       [01;31m[K^~~~~~~~~~[m[K
+[2.560s]       |       [32m[Krmw_publisher_t[m[K
+[2.568s] [01m[K/home/zsj/code/unitree_ws/src/create_dataset/src/read_data.cpp:24:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[2.568s]    24 |       [01;31m[Ktimer_[m[K = this->create_wall_timer(
+[2.568s]       |       [01;31m[K^~~~~~[m[K
+[2.568s]       |       [32m[Ktimer_t[m[K
+[2.580s] [01m[K/home/zsj/code/unitree_ws/src/create_dataset/src/read_data.cpp:27:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kreader_[m[K’ was not declared in this scope; did you mean ‘[01m[Kread[m[K’?
+[2.580s]    27 |       [01;31m[Kreader_[m[K.open(bag_filename);
+[2.580s]       |       [01;31m[K^~~~~~~[m[K
+[2.580s]       |       [32m[Kread[m[K
+[2.585s] [01m[K/home/zsj/code/unitree_ws/src/create_dataset/src/read_data.cpp:[m[K In member function ‘[01m[Kvoid PlaybackNode::timer_callback()[m[K’:
+[2.585s] [01m[K/home/zsj/code/unitree_ws/src/create_dataset/src/read_data.cpp:34:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kreader_[m[K’ was not declared in this scope; did you mean ‘[01m[Kread[m[K’?
+[2.585s]    34 |       while ([01;31m[Kreader_[m[K.has_next()) {
+[2.585s]       |              [01;31m[K^~~~~~~[m[K
+[2.585s]       |              [32m[Kread[m[K
+[2.594s] [01m[K/home/zsj/code/unitree_ws/src/create_dataset/src/read_data.cpp:44:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kserialization_[m[K’ was not declared in this scope
+[2.594s]    44 |         [01;31m[Kserialization_[m[K.deserialize_message(&serialized_msg, datapoint.get());
+[2.595s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.600s] [01m[K/home/zsj/code/unitree_ws/src/create_dataset/src/read_data.cpp:46:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[2.600s]    46 |         [01;31m[Kpublisher_[m[K->publish(*datapoint);
+[2.600s]       |         [01;31m[K^~~~~~~~~~[m[K
+[2.600s]       |         [32m[Krmw_publisher_t[m[K
+[2.603s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.603s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.603s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.604s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.604s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.604s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.604s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.604s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.604s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.604s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.604s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.604s]                  from [01m[K/home/zsj/code/unitree_ws/src/create_dataset/src/read_data.cpp:7[m[K:
+[2.604s] [01m[K/home/zsj/code/unitree_ws/src/create_dataset/src/read_data.cpp:49:19:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+[2.604s]    49 |                   [01;31m[Ki[m[K, data_point.motor_q[i], data_point.motor_dq[i], data_point.motor_ddq[i], data_point.motor_tau_est[i]);
+[2.604s]       |                   [01;31m[K^[m[K
+[2.633s] [01m[K/home/zsj/code/unitree_ws/src/create_dataset/src/read_data.cpp:49:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata_point[m[K’ was not declared in this scope; did you mean ‘[01m[Kdatapoint[m[K’?
+[2.633s]    49 |                   i, [01;31m[Kdata_point[m[K.motor_q[i], data_point.motor_dq[i], data_point.motor_ddq[i], data_point.motor_tau_est[i]);
+[2.634s]       |                      [01;31m[K^~~~~~~~~~[m[K
+[2.639s] [01m[K/home/zsj/code/unitree_ws/src/create_dataset/src/read_data.cpp:[m[K At global scope:
+[2.639s] [01m[K/home/zsj/code/unitree_ws/src/create_dataset/src/read_data.cpp:73:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[2.639s]    73 | }
+[2.639s]       |  [01;31m[K^[m[K
+[3.348s] gmake[2]: *** [CMakeFiles/read_data.dir/build.make:76: CMakeFiles/read_data.dir/src/read_data.cpp.o] Error 1
+[3.348s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/read_data.dir/all] Error 2
+[3.348s] gmake: *** [Makefile:146: all] Error 2
+[3.351s] Invoked command in '/home/zsj/code/unitree_ws/build/create_dataset' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zsj/code/unitree_ws/install/read_bag:/opt/ros/humble /usr/bin/cmake --build /home/zsj/code/unitree_ws/build/create_dataset -- -j12 -l12

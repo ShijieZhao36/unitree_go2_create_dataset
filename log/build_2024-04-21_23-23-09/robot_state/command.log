@@ -1,0 +1,4 @@
+Invoking command in '/home/zsj/code/unitree_ws/build/robot_state': /usr/bin/cmake --build /home/zsj/code/unitree_ws/build/robot_state -- -j12 -l12
+Invoked command in '/home/zsj/code/unitree_ws/build/robot_state' returned '0': /usr/bin/cmake --build /home/zsj/code/unitree_ws/build/robot_state -- -j12 -l12
+Invoking command in '/home/zsj/code/unitree_ws/build/robot_state': /usr/bin/cmake --install /home/zsj/code/unitree_ws/build/robot_state
+Invoked command in '/home/zsj/code/unitree_ws/build/robot_state' returned '0': /usr/bin/cmake --install /home/zsj/code/unitree_ws/build/robot_state

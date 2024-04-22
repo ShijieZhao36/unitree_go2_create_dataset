@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robot_state/msg/RobotState.msg
+// generated code does not contain a copyright notice
+
+
+module robot_state {
+  module msg {
+    typedef int16 int16__4[4];
+    typedef float float__12[12];
+    struct RobotState {
+      int16__4 foot_force;
+
+      float__12 motor_q;
+
+      float__12 motor_dq;
+
+      float__12 motor_ddq;
+
+      float__12 motor_tau_est;
+    };
+  };
+};
