@@ -1,8 +1,0 @@
-[01m[K/home/zsj/code/unitree_ws/src/create_dataset/src/read_data.cpp:[m[K In member function ‘[01m[Kvoid PlaybackNode::timer_callback()[m[K’:
-[01m[K/home/zsj/code/unitree_ws/src/create_dataset/src/read_data.cpp:47:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct robot_state::msg::RobotState_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct robot_state::msg::RobotState_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kmotor_state[m[K’
-   47 |         std::cout << '(' << ros_msg->[01;31m[Kmotor_state[m[K[0].q;
-      |                                      [01;31m[K^~~~~~~~~~~[m[K
-gmake[2]: *** [CMakeFiles/read_data.dir/build.make:76: CMakeFiles/read_data.dir/src/read_data.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/read_data.dir/all] Error 2
-gmake[1]: *** Waiting for unfinished jobs....
-gmake: *** [Makefile:146: all] Error 2

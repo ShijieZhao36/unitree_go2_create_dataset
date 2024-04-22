@@ -1,3 +1,0 @@
-gmake[2]: *** [CMakeFiles/read_data.dir/build.make:76: CMakeFiles/read_data.dir/src/read_data.cpp.o] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/read_data.dir/all] Interrupt
-gmake: *** [Makefile:146: all] Interrupt

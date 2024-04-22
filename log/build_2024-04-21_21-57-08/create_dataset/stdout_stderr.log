@@ -1,7 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target read_data[0m
-[ 71%] Built target control_speed
-[ 71%] Built target record_data
-[ 85%] [32mBuilding CXX object CMakeFiles/read_data.dir/src/read_data.cpp.o[0m
-gmake[2]: *** [CMakeFiles/read_data.dir/build.make:76: CMakeFiles/read_data.dir/src/read_data.cpp.o] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/read_data.dir/all] Interrupt
-gmake: *** [Makefile:146: all] Interrupt

@@ -1,8 +1,0 @@
-setup.py
-robot_state/__init__.py
-robot_state.egg-info/PKG-INFO
-robot_state.egg-info/SOURCES.txt
-robot_state.egg-info/dependency_links.txt
-robot_state.egg-info/top_level.txt
-robot_state/msg/__init__.py
-robot_state/msg/_robot_state.py

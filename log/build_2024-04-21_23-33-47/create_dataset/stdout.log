@@ -1,5 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target record_data[0m
-[35m[1mConsolidate compiler generated dependencies of target control_speed[0m
-[ 28%] Built target read_data
-[ 57%] Built target record_data
-[ 71%] [32mBuilding CXX object CMakeFiles/control_speed.dir/src/control_speed.cpp.o[0m

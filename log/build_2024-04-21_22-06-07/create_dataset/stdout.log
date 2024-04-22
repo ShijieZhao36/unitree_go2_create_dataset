@@ -1,4 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target read_data[0m
-[ 28%] Built target record_data
-[ 71%] Built target control_speed
-[ 85%] [32mBuilding CXX object CMakeFiles/read_data.dir/src/read_data.cpp.o[0m

@@ -1,9 +1,0 @@
-[0.009s] Invoking command in '/home/zsj/code/unitree_ws/build/create_dataset': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zsj/code/unitree_ws/install/read_bag:/opt/ros/humble /usr/bin/cmake --build /home/zsj/code/unitree_ws/build/create_dataset -- -j12 -l12
-[0.051s] [35m[1mConsolidate compiler generated dependencies of target read_data[0m
-[0.065s] [ 71%] Built target control_speed
-[0.065s] [ 71%] Built target record_data
-[0.071s] [ 85%] [32mBuilding CXX object CMakeFiles/read_data.dir/src/read_data.cpp.o[0m
-[1.290s] gmake[2]: *** [CMakeFiles/read_data.dir/build.make:76: CMakeFiles/read_data.dir/src/read_data.cpp.o] Interrupt
-[1.290s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/read_data.dir/all] Interrupt
-[1.290s] gmake: *** [Makefile:146: all] Interrupt
-[1.303s] Invoked command in '/home/zsj/code/unitree_ws/build/create_dataset' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zsj/code/unitree_ws/install/read_bag:/opt/ros/humble /usr/bin/cmake --build /home/zsj/code/unitree_ws/build/create_dataset -- -j12 -l12

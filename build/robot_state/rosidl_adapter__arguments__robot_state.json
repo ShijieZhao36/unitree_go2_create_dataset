@@ -1,6 +1,0 @@
-{
-  "package_name": "robot_state",
-  "non_idl_tuples": [
-    "/home/zsj/code/unitree_ws/src/robot_state:msg/RobotState.msg"
-  ]
-}
